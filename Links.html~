@@ -2,27 +2,31 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <link title="default style" href="css/Home.css" media="screen" type="text/css"
+    <link title="default style" href="/static/css/Home.css" media="screen" type="text/css"
           rel="stylesheet"/>
     <title>Realistic Taxidermy</title>
 </head>
 <body>
 <div id="page">
     <h1>
-        <img src="images/Logo.gif" alt="Realistic Taxidermy Logo"/></h1>
+        <img src="/static/images/Logo.gif" alt="Realistic Taxidermy Logo"/></h1>
     <ul id="navMenu">
-        <li><a href="index.html" class="navigationReference">Home</a></li>
-        <li><a href="Gallery.html" class="navigationReference">Gallery</a></li>
-        <li><a href="Contact.html" class="navigationReference">Contact</a></li>
-        <li><a href="Links.html" class="navigationReference">Links</a></li>
+        <li><a href="/" class="navigationReference">Home</a></li>
+        <li><a href="/Gallery.html" class="navigationReference">Gallery</a></li>
+        <li><a href="/Contact.html" class="navigationReference">Contact</a></li>
+        <li><a href="/Links.html" class="navigationReference">Links</a></li>
     </ul>
-   <div id="gallery" class="section">
- 	<div id="nanoGallery2"></div>
-        <a id="picasaLink" href="http://picasaweb.google.com/realistictaxidermyMn">
-            <img src="images/wwpicasa60x60.gif" alt="Picasa Logo"/></a>
+    <div id="links" class="section">
+        <p>
+            <strong>Realistic Taxidermy</strong> is proud to support the following businesses:</p>
+        <ul>
+            <li><a href="http://www.thereddoorresort.com">The Red Door Resort/Motel</a></li>
+            <li><a href="http://www.goldentrianglewhitetail.com">Golden Triangle Whitetails</a></li>
+            <li><a href="http://www.buckisland.net">Buck Island Outfitters</a></li>
+            <li><a href="http://www.kuduadventuresafaris.co.za">Kudu Adventure Safaris</a></li>
+        </ul>
     </div>
 </div>
-
 <div id="footer">
     <div>
         <span>&copy; 2009 Realistic Taxidermy</span><span id="webmaster"><a href="http://www.tompiere.com">Webmaster:
@@ -30,15 +34,6 @@
         <!--img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif"  alt="Powered by Google App Engine" /-->
     </div>
 </div>
-
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.9.1/css/nanogallery.min.css"rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.9.1/jquery.nanogallery.min.js"></script>
-
-<!-- Dependencies -->
-<script type="text/javascript" src="js/gallery.js"></script>
 <script type="text/javascript">
 
     var _gaq = _gaq || [];

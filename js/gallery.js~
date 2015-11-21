@@ -1,0 +1,13 @@
+void function($){
+ 'use strict';
+
+	alert('start');
+	
+	$(document).ready(function () {
+	      $("#nanoGallery2").nanoGallery({
+		  kind: 'picasa',
+		  userID: 'realistictaxidermyMn'
+	      });
+  	});
+
+}(jQuery);

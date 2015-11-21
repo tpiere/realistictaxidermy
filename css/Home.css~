@@ -27,7 +27,7 @@ body{
 }
 
 h1 {
-	 background-image:url('../images/logo-background.jpg');
+	 background-image:url('/static/images/logo-background.jpg');
 	 background-repeat:repeat-x;
 	 background-position:bottom left;
 	 margin:0px;
@@ -47,7 +47,7 @@ h1 img{
 		background: scroll #FFFFFF url('/static/images/backgroundTile2.png') right top no-repeat;*/  
 		/*background-image:url('/static/images/backgroundTile2.png');*/
 		/*background-image:url('/static/images/contentBackgroundBallsFade.png') repeat scroll 0 0;*/
-		background-image:url('../images/content-background.jpg');
+		background-image:url('/static/images/content-background.jpg');
 		background-repeat:repeat-x;
 		margin-top:0px;
 		padding-top:1em;
